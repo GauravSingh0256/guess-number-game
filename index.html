@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="icon">
+        🎯
+    </div>
+
+    <h1>Guess The Number</h1>
+
+    <p>
+        I have chosen a number between 1 and 100.
+        <br>
+        Can you guess it?
+    </p>
+
+    <input
+        type="number"
+        id="guess"
+        placeholder="Enter your guess..."
+    >
+
+   <button id="checkBtn" onclick="checkGuess()">
+    Check
+</button>
+
+    <h3 id="message"></h3>
+    <p id="hint"></p>
+
+    <div class="stats">
+
+        <div class="box">
+            <h4>Attempts</h4>
+            <p id="attempts">0</p>
+        </div>
+
+        <div class="box">
+            <h4>Best Score</h4>
+            <p id="bestScore">-</p>
+        </div>
+
+    </div>
+
+    <button class="restart-btn"
+onclick="restartGame()">
+    Restart Game
+</button>
+   <p class="footer">
+        Created by Gaurav Singh
+    </p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
