@@ -6,25 +6,19 @@ body{
 
     background-image:url("numbers-bg.jpg");
 
-    background-size:110%;
+    background-size:cover;
 
     background-position:center;
 
     background-repeat:no-repeat;
 
-    background-attachment:fixed;
-
-    height:100vh;
+    min-height:100vh;
 
     display:flex;
 
     justify-content:center;
 
     align-items:center;
-
-     overflow:hidden;
-
-     
 
     touch-action:manipulation;
 }
@@ -232,7 +226,7 @@ button:active{
 
         width:95%;
 
-        max-width:none;
+        max-width:450px;
 
         padding:25px;
     }
