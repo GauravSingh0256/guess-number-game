@@ -21,6 +21,8 @@ body{
     justify-content:center;
 
     align-items:center;
+
+     overflow:hidden;
 }
 
 .container{
@@ -40,6 +42,10 @@ body{
     box-shadow:0px 15px 35px rgba(0,0,0,0.12);
 
     animation:cardAppear 0.7s ease;
+
+     user-select:none;
+     
+     transform:translateY(-20px);
 }
 
 .icon{
@@ -220,21 +226,40 @@ button:active{
 
     .container{
 
-        width:90%;
-
-        padding:15px;
+        width:92%;
+        max-width:400px;
+        padding:25px;
+        border-radius:20px;
     }
 
     h1{
 
-        font-size:35px;
+        font-size:42px;
     }
 
     input{
 
         width:90%;
+        font-size:20px;
+    }
+
+    button{
+
+        font-size:20px;
+        padding:16px 35px;
+    }
+
+    #message{
+
+        font-size:26px;
+    }
+
+    #hint{
+
+        font-size:20px;
     }
 }
+
 .footer{
 
     margin-top:15px;
